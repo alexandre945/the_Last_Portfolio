@@ -1,0 +1,149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17,54, 71)); */
+   
+   
+   
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 px;
+    margin-top: 0;
+    
+ }
+ 
+ .navbar {
+ /* position: fixed; */
+ width: 100%;
+ height: 15px;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ font-family: 'Ubutun', sans-serif;
+ transition: all 0.3s ease;
+ background-color: #00804b;
+ }
+ 
+ .navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+ 
+ .navbar .menu li {
+    list-style: none;
+    display: inline-block;
+    padding-bottom: 25px;
+    
+ }
+ .navbar .menu li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.4s ease;
+    padding: 15px;
+    
+ }
+ 
+ .navbar .menu li a:hover{
+    color: #111;
+ }
+ .box {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     padding: 15px;
+     border-radius: 10px;
+     background-color: #111;
+     width: 30%;
+     color: #00804b;
+ }
+ fieldset {
+     border: 3px solid #00804b;
+     border-radius: 8px;
+ }
+ legend {
+    border: 1px solid #00804b; 
+    padding: 10px;
+    color: #111;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #1fe693;
+    transition: all 1.1s ease;
+
+ }
+ legend:hover {
+     color: #fff;
+ }
+ .inputBox {
+     position: relative;
+     
+ }
+ .inptUser {
+   background: none;
+   border: none;
+   border-bottom: 1px solid #00804b;
+   outline: none;
+   color: white;
+   font-size: 15px;
+   width: 100%;
+ 
+ }
+ .labelInput {
+     position: absolute;
+     top: 0;
+     left: 0;
+     pointer-events: none;
+     transition: 02s;
+
+ }
+ .inptUser:focus ~ .labelInput, .inptUser:valid ~ .labelInput {
+     top: -20px;
+     font-size: 12px;
+     color: #fff;
+ }
+ textarea {
+     width: 100%;
+     background: none;
+     outline: none;
+     color: white;
+     font-size: 15px;
+     border: none;
+     border-bottom: 1px solid #00804b;
+ }
+ #button {
+     background-image: linear-gradient(to right, rgb(0, 197, 115), rgb(20, 157, 220));
+     width: 100%;
+     border: none;
+     padding: 15px;
+     color: #fff;
+     font-size: 15px;
+     border-radius: 8px;
+     transition: all 0,3s ease;
+     margin: 5px ;
+
+ }
+ #button:hover {
+     background-color: #00804b !important;
+     color: #111;
+ }
+ .email {
+     text-align: center;
+     padding: 100px;
+     font-size: 28px;
+ }
+ .email a {
+     padding: 5px;
+     color: #111;
+     background-color: #00804b;
+     border-radius: 10px;
+     margin-top: 50px;
+ }
+

@@ -1,0 +1,148 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+   
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 px;
+    margin-top: 0;
+    
+ }
+ 
+ .navbar {
+ /* position: fixed; */
+ width: 100%;
+ height: 15px;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ font-family: 'Ubutun', sans-serif;
+ transition: all 0.3s ease;
+ background-color: #00804b;
+ }
+ 
+ .navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+ 
+ .navbar .menu li {
+    list-style: none;
+    display: inline-block;
+    padding-bottom: 25px;
+    
+ }
+ .navbar .menu li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.4s ease;
+    padding: 15px;
+    
+ }
+ 
+ .navbar .menu li a:hover{
+    color: #111;
+ }
+ 
+.services {
+    background-color: #111;
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+ padding-top: 100px;
+ padding-bottom: 50px;
+ padding-left: 70px;
+ padding-right: 70px;
+ 
+}
+.services a {
+    width: 300px;
+    height: 150px;
+    background-color: #00804b;
+    padding: 5px;
+    border-radius: 6px;
+    color: #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.services a:hover{
+    background-color: #5ee0aa;
+    
+}
+
+.services .services-content .card {
+    width: calc(33% - 20px);
+    padding: 65px;
+    background-color: #222;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services .services-content .card:hover{
+    transform: scale(1.05);
+}
+.services .services-content .card:hover{
+    background-color: #00804b;
+}
+.services .services-content .card .text:hover{
+    color: #111;
+}
+
+.services .services-content .card .box ion-icon {
+    font-size: 60px;
+    color: #00804b;
+    transition: all 2.5s ease;
+}
+.services .services-content .card .box:hover ion-icon{
+    color: #fff;
+}
+.services .services-content .card .box {
+    
+    border-radius: 8px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+.services .services-content .card .text {
+    font-size: 25px;
+    font-weight: 500;
+
+}
+.services .services-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.services .title {
+
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 20px;
+
+}@media (max-width:650px){
+    .services .services-content .card .text {
+    font-size: 15px;
+    }
+    .services .services-content {
+        display: inline-block;
+
+    }
+    .services .services-content .card {
+        width: 300px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .services .services-content .card .box p {
+        font-size: 15px;
+    }
+}

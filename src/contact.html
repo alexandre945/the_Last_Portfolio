@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contact.css">
+    <title>Contato</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="max-width">
+            <div class="logo"></div>
+            <ul class="menu">
+                <li><a href="index.html">Inicío</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="service.html">Serviço</a></li>
+                <li><a href="skill.html">Skills</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <div class="menu-btn">
+                <!-- <ion-icon name="menu-outline"></ion-icon> -->
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="box">
+            <form action="https://formsubmit.co/alexandresousaroberto@gmail.com" method="post">
+                <fieldset>
+                    <legend><b>FORMLÁRIO DE CONTATO</b></legend>
+                    <br>
+                    <div class="inputBox">
+                        <input type="hidden" name="_autoresponse" value="obrigado por entrar em contato responderie o mais breve possil.">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/src/email.html">
+                        <input type="text" id="name" name="name" class="inptUser" required>
+                        <label class="labelInput">NOME:</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="text" id="email" name="email" class="inptUser" required>
+                        <label class="labelInput">E-MAIL:</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="tel" id="tel" name="fone" class="inptUser" required>
+                        <label class="labelInput">TELE-FONE:</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                    <textarea name="text"></textarea>
+                    <label c>ASSUNTO:</label>
+                    </div>
+                    <br><br>
+                    <button type="submit" id="button">ENVIAR</button>
+                </fieldset>
+            </form>
+        </div>
+
+    </div>
+    
+</body>
+
+</html>
