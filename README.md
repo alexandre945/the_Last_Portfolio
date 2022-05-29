@@ -19,3 +19,7 @@
 
 ## LINK DO PROJETO EM NODEJS HOSPEDADO NA HEROKU
 https://portifolios77herokuapp.com
+
+## LINK DO PROJETO EM REACT HOSPEDADO NA VERCEL
+
+https://vite-react-two.vercel.app
